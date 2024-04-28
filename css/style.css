@@ -1,0 +1,50 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main Course Styles */
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    border: 1px solid green;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+/* ul {
+    border: 1px solid pink;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    width: 95%;
+} */
+/* ul li {
+    border: 1px solid green;
+} */
+
+/* .collapse{
+    border: 1px solid green;
+    display: flex;
+    justify-content: end;
+}
+.navbar-nav{
+    border: 1px solid grey;
+    gap:20px;
+    margin-right: 20px;
+} */
+.card-body{
+    border: 1px solid green;
+    text-align: center;
+  
+}
